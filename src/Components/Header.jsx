@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -10,15 +11,28 @@ function Header() {
   };
 
   return (
-    <header className="fixed py-3 top-0 left-0 w-full bg-white shadow-lg z-50">
+    <header className="fixed top-0 left-0 w-full bg-white shadow-lg z-50">
       <div className="container mx-auto flex justify-between items-center px-4 py-3">
         {/* Logo */}
-        <Link to="/" className="text-2xl font-bold text-blue-600">
-          Global Packaging
+        <Link to="/" className="flex items-center space-x-2">
+          <img
+            src={logo}
+            alt="Global Packaging Logo"
+            style={{ width: "60px" }}
+            className="sm:w-[90px]"
+          />
+          <span
+            className="text-3xl font-bold text-green-500 hidden sm:block"
+            style={{
+              fontFamily: "Outfit, Poppins, Raleway, Space Grotesk, sans-serif",
+            }}
+          >
+            Global Packaging
+          </span>
         </Link>
 
         {/* Navigation */}
-        <nav className="hidden md:flex space-x-6">
+        <nav className="hidden text-xl md:flex space-x-6">
           <NavLink
             to="/"
             className="text-gray-700 hover:text-blue-500 transition"

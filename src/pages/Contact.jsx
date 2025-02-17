@@ -13,28 +13,26 @@ const Contact = () => {
           <div className="text-lg space-y-3">
             <h3 className="font-semibold text-xl">Our Address:</h3>
             <p>Global Packaging</p>
-            <p>1234 Packaging Street,</p>
-            <p>Palghar, Maharashtra, India</p>
+            <p>Shop No.8 HariOm Business Center,</p>
+            <p>ChintuPada Road Bidco ParadiseCity Mahim Village</p>
+            <p> palghar(West) Palghar-401404</p>
           </div>
 
           <div className="text-lg space-y-3">
             <h3 className="font-semibold text-xl">Contact Details:</h3>
             <p>
               Email:{" "}
-              <a
-                href="mailto:info@globalpackaging.com"
-                className="text-blue-500"
-              >
-                info@globalpackaging.com
+              <a href=" globalpackaging0911gmail.com" className="text-blue-500">
+                globalpackaging0911gmail.com
               </a>
             </p>
             <p>
               Phone:{" "}
-              <a href="tel:+911234567890" className="text-blue-500">
-                +91 123 456 7890
+              <a href="tel:+ +91 77700 75750" className="text-blue-500">
+                +91 77700 75750
               </a>
             </p>
-            <p>Fax: +91 123 456 7891</p>
+            <p>GST:27MCJPS2143D1ZE</p>
           </div>
 
           <div className="text-lg space-y-3">

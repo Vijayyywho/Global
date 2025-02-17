@@ -50,18 +50,24 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <p className="flex items-center">
-                  <span className="mr-2">📞</span> +1 (123) 456-7890
+                  <span className="mr-2">📞</span> +91 77700 75750
                 </p>
               </li>
               <li>
                 <p className="flex items-center">
-                  <span className="mr-2">📧</span> info@aristoflexipack.com
+                  <span className="mr-2">📧</span> globalpackaging0911gmail.com
                 </p>
               </li>
               <li>
                 <p className="flex items-center">
-                  <span className="mr-2">📍</span> 123 Business Street, City,
-                  Country
+                  <span className="mr-2">📧</span> GST:27MCJPS2143D1ZE
+                </p>
+              </li>
+              <li>
+                <p className="flex items-center">
+                  <span className="mr-2">📍</span> Shop No.8 HariOm Business
+                  Center ChintuPada Road Bidco ParadiseCity Mahim Village
+                  palghar(West) Palghar-401404
                 </p>
               </li>
             </ul>
