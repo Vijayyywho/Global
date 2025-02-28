@@ -22,7 +22,7 @@ function Header() {
             className="sm:w-[90px]"
           />
           <span
-            className="text-3xl font-bold text-green-500 hidden sm:block drop-shadow-lg"
+            className="text-lg sm:text-3xl font-bold text-green-500 drop-shadow-lg"
             style={{
               fontFamily: "Outfit, Poppins, Raleway, Space Grotesk, sans-serif",
               background: "linear-gradient(to right, #32CD32, #228B22)", // Gradient for texture effect
