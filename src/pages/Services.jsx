@@ -3,8 +3,8 @@ import { FaHeadset, FaDollarSign, FaWarehouse } from "react-icons/fa"; // Import
 
 const Services = () => {
   return (
-    <div className="p-8 bg-gray-100 my-12 mt-12">
-      <h2 className="text-3xl font-bold text-center mb-10">Our Services</h2>
+    <div className="p-8 bg-gray-100 my-12 py-14 mt-14">
+      <h2 className="text-3xl font-bold text-center mb-6">Our Services</h2>
       <p className="text-center text-xl font-normal text-gray-800 mb-10 px-6 sm:px-12">
         For over 5 years, Global Packaging has provided quality, reliable
         service, and bespoke plastic film solutions to meet your business needs,
