@@ -8,9 +8,9 @@ const StatsSection = () => {
   const [countries, setCountries] = useState(0);
 
   // Target values for the counters
-  const targetYears = 25;
-  const targetCustomers = 1000;
-  const targetCountries = 50;
+  const targetYears = 5;
+  const targetCustomers = 450;
+  const targetCountries = 16;
 
   // Animation duration in milliseconds
   const animationDuration = 2000; // 2 seconds
@@ -67,7 +67,9 @@ const StatsSection = () => {
             <span className="text-5xl font-bold text-purple-600">
               {Math.round(countries)}+
             </span>
-            <p className="text-xl text-gray-700 mt-2">Countries Served</p>
+            <p className="text-xl text-gray-700 mt-2">
+              Trusted Across Indian States{" "}
+            </p>
           </div>
         </div>
       </div>
