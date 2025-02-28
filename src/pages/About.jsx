@@ -16,10 +16,11 @@ const About = () => {
               Our Story
             </h2>
             <p className="text-lg text-gray-700">
-              At Global Packaging, based in Palghar and owned by Prince Singh,
-              we specialize in providing customized plastic film packaging
-              solutions. Our mission is to work closely with clients to deliver
-              top-quality packaging that caters to their specific needs.
+              At Global Packaging, <b>based in Palghar</b> and owned by Prince
+              Singh, we specialize in providing customized plastic film
+              packaging solutions. Our mission is to work closely with clients
+              to deliver top-quality packaging that caters to their specific
+              needs.
             </p>
             <p className="text-lg text-gray-700 mt-4">
               We have grown significantly over the years, emerging as a leader
