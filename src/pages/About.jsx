@@ -71,13 +71,13 @@ const About = () => {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="md:w-1/2 w-full px-4">
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                Our Global Reach
+                Our Nationwide Reach
               </h2>
               <p className="text-lg text-gray-700">
                 We proudly distribute our high-quality packaging products to
-                clients across India, the Middle East, Africa, the Arabian Gulf,
-                and the Americas. Our logistics network ensures prompt
-                deliveries that meet the diverse needs of our global clientele.
+                clients across India. Our strong logistics network ensures
+                prompt deliveries, meeting the diverse needs of businesses
+                throughout the country.
               </p>
             </div>
             <div className="md:w-1/2 w-full">
