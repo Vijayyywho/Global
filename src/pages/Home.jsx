@@ -25,8 +25,12 @@ const Home = () => {
               About Us
             </h2>
             <p className="text-lg mb-4">
-              At Global Packaging, based in Palghar and owned by Prince Singh,
-              we are committed to collaborating with our clients to deliver
+              At <b>Global Packaging</b>, based in Palghar and owned by{" "}
+              <i>
+                {" "}
+                <b> Prince Singh</b>
+              </i>
+              , we are committed to collaborating with our clients to deliver
               customized plastic film packaging solutions. Our goal is to
               effectively address their challenges and drive their progress by
               providing tailored solutions that meet their specific needs.
@@ -34,19 +38,19 @@ const Home = () => {
 
             <p className="text-lg mb-4">
               Over the years, our company has experienced remarkable growth,
-              establishing us as a premier manufacturer of high-quality
+              establishing us as a <b> premier manufacturer</b> of high-quality
               co-extruded films and bags. This success is built on our
-              dedication to innovation, quality, and customer satisfaction,
-              which have allowed us to expand our reach in the packaging
-              industry.
+              dedication to innovation, quality, and{" "}
+              <b>customer satisfaction</b>, which have allowed us to expand our
+              reach in the packaging industry.
             </p>
 
             <p className="text-lg">
               Operating from our advanced production facility in Daman, India,
-              we distribute our products across India, the Middle East, Africa,
-              the Arabian Gulf, and the Americas. We strive to maintain our
-              market-leading position by continuously delivering exceptional
-              packaging solutions that meet the evolving demands of our clients.
+              we distribute our products <b>across India</b>. We strive to
+              maintain our market-leading position by continuously delivering
+              exceptional packaging solutions that meet the evolving demands of
+              our clients.
             </p>
           </div>
 

@@ -25,8 +25,7 @@ const About = () => {
             <p className="text-lg text-gray-700 mt-4">
               We have grown significantly over the years, emerging as a leader
               in the packaging industry. Our production facility is located in
-              Daman, India, from where we distribute our products worldwide to
-              regions like the Middle East, Africa, and the Americas.
+              Daman, India, from where we distribute our products all over India
             </p>
           </div>
           <div className="md:w-1/2 w-full">
