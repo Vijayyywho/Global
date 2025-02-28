@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Products = () => {
   // Sample product data
@@ -11,7 +12,7 @@ const Products = () => {
     {
       title: "Packaging for Construction",
       imgUrl:
-        "https://aristoflexipack.com/media/category/images/645c904dc70b1_1.jpg",
+        "  https://aristoflexipack.com/media/category/images/645bde6b8b041_construction.jpg",
     },
     {
       title: "Beverage Packaging",
@@ -19,9 +20,9 @@ const Products = () => {
         "https://aristoflexipack.com/media/category/images/645bde6037820_beverage_new.jpg",
     },
     {
-      title: "Construction Packaging",
+      title: "Basic Materials",
       imgUrl:
-        "https://aristoflexipack.com/media/category/images/645bde6b8b041_construction.jpg",
+        "https://aristoflexipack.com/media/category/images/645c904dc70b1_1.jpg",
     },
     {
       title: "Chemical Packaging",
@@ -75,19 +76,21 @@ const Products = () => {
       {/* Product Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((product, index) => (
-          <div
+          <Link
+            to={`/products/${product.title.replace(/\s+/g, "-").toLowerCase()}`}
             key={index}
-            className="text-center bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
           >
-            <img
-              src={product.imgUrl}
-              alt={product.title}
-              className="w-full h-[200px] object-cover"
-            />
-            <div className="py-4">
-              <h3 className="text-xl font-medium">{product.title}</h3>
+            <div className="text-center bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+              <img
+                src={product.imgUrl}
+                alt={product.title}
+                className="w-full h-[200px] object-cover"
+              />
+              <div className="py-4">
+                <h3 className="text-xl font-medium">{product.title}</h3>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
