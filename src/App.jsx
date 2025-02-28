@@ -8,10 +8,12 @@ import ProductDetail from "./pages/ProductDetail";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import "./App.css";
+import ScrollToTop from "./pages/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
