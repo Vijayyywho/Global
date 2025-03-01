@@ -103,18 +103,18 @@ const About = () => {
           <div className="flex justify-center gap-8 flex-wrap">
             <div className="text-center">
               <h3 className="text-xl font-semibold text-gray-800">Phone</h3>
-              <p className="text-lg text-gray-700">+91 123 456 7890</p>
+              <p className="text-lg text-gray-700">+91 77700 75750</p>
             </div>
             <div className="text-center">
               <h3 className="text-xl font-semibold text-gray-800">Email</h3>
               <p className="text-lg text-gray-700">
-                contact@globalpackaging.com
+                globalpackaging0911gmail.com{" "}
               </p>
             </div>
             <div className="text-center">
               <h3 className="text-xl font-semibold text-gray-800">Address</h3>
               <p className="text-lg text-gray-700">
-                Global Packaging, Palghar, India
+                Hari Om Business ChintuPada Palghar-401404
               </p>
             </div>
           </div>
